@@ -1,0 +1,39 @@
+{
+  "jcraft:obtain_stand_arrow": {
+    "criteria": {
+      "has_arrow": "2025-04-04 02:17:44 -0500"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/requiem_arrow": {
+    "criteria": {
+      "has_arrow": "2025-04-04 02:17:44 -0500"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/stand_disc": {
+    "criteria": {
+      "has_arrow": "2025-04-04 02:17:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-04 02:17:45 -0500"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/living_arrow": {
+    "criteria": {
+      "has_arrow": "2025-04-04 02:17:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2025-04-04 02:17:46 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

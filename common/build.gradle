@@ -1,0 +1,31 @@
+architectury {
+    common rootProject.enabled_platforms.split(',')
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/jcraft_requiem.accesswidener")
+}
+
+dependencies {
+    // We depend on Fabric Loader here to use the Fabric @Environment annotations,
+    // which get remapped to the correct annotations on each platform.
+    // Do NOT use other classes from Fabric Loader.
+    modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
+
+    modImplementation "dev.architectury:architectury:$rootProject.architectury_api_version"
+
+    compileOnly "mod.azure.azurelib:azurelib-common-1.20.1:${azurelib_version}"
+
+    //Player Anim
+    modImplementation "dev.kosmx.player-anim:player-animation-lib:${rootProject.player_anim_version}"
+    modImplementation "dev.kosmx.player-anim:anim-core:${rootProject.player_anim_version}"
+    modImplementation(files('../locallibs/jcraft-common-0.16.3.jar'))
+    //Cloth
+    modApi "me.shedaniel.cloth:cloth-config:11.1.118"
+
+    //modImplementation "com.fusionflux:gravity_api-common-${gravity_api_version}"
+
+    // JUnit for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}

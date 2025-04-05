@@ -1,0 +1,30 @@
+{
+  "jcraft:obtain_jotaro_outfit": {
+    "criteria": {
+      "has_jotaro_pants": "2025-04-03 22:51:56 -0500",
+      "has_jotaro_cap": "2025-04-03 22:51:56 -0500",
+      "has_jotaro_boots": "2025-04-03 22:51:56 -0500",
+      "has_jotaro_jacket": "2025-04-03 22:51:56 -0500"
+    },
+    "done": true
+  },
+  "jcraft:obtain_stand_disc": {
+    "criteria": {
+      "has_disc": "2025-04-03 22:51:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-03 22:51:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2025-04-03 22:51:57 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

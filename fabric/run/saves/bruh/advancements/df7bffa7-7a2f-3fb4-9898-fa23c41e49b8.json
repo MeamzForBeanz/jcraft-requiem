@@ -1,0 +1,39 @@
+{
+  "jcraft:obtain_stand_arrow": {
+    "criteria": {
+      "has_arrow": "2025-04-04 08:15:49 -0500"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/requiem_arrow": {
+    "criteria": {
+      "has_arrow": "2025-04-04 08:15:49 -0500"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/stand_disc": {
+    "criteria": {
+      "has_arrow": "2025-04-04 08:15:49 -0500"
+    },
+    "done": true
+  },
+  "jcraft:obtain_stand_disc": {
+    "criteria": {
+      "has_disc": "2025-04-04 08:15:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-04 08:15:49 -0500"
+    },
+    "done": true
+  },
+  "jcraft:recipes/misc/living_arrow": {
+    "criteria": {
+      "has_arrow": "2025-04-04 08:15:49 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
